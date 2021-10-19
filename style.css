@@ -29,10 +29,21 @@ figcaption {
     border: 1px solid black;
     border-radius: 8px;
 }
+footer {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom:0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-top:  2px solid black;
+    padding: 10px;
+}
   #main-content {
       max-width: 1300px;
       min-width: 650px;
       margin: auto;
+      padding-bottom: 20px;
   }
 #main-content::after {
     content: "";
